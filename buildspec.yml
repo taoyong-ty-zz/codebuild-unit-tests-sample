@@ -22,3 +22,4 @@ phases:
 artifacts:
     files:
       - build/jar/HelloWorld.jar
+    name: ${CODEBUILD_MAJOR_VERSION}/${CODEBUILD_MINOR_VERSION  }
